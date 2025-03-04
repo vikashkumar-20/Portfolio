@@ -36,7 +36,7 @@ const Home = () => {
             <nav>
 
                 <a href="https://www.vikash.world/">
-                    <img src="/images/logo.PNG" className="h-10" />
+                    <img src="/public/images/logo.png" />
                 </a>
 
                 <div className="navbar-button">
@@ -68,7 +68,7 @@ const Home = () => {
                     }}
                 >
                     <img
-                        src={theme === "dark" ? "/images/moon.svg" : "/images/sun.webp"}
+                        src={theme === "dark" ? "/public/images/moon.png" : "/public/images/sun.webp"}
                         alt={theme === "dark" ? "Moon Icon" : "Sun Icon"}
                         style={{
                             height: "40px",
@@ -107,7 +107,7 @@ const Home = () => {
                         title="ClipBoard Application"
                         TechnologyUsed="Technology Used :"
                         TechnologyName="HTML, Tailwind, JavaScript, React"
-                        img="/images/project-one.png"
+                        img="/public/images/project-one.png"
                         GitHubRepositoryLink="GitHub Repository Link:"
                         GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
                     />
@@ -117,28 +117,7 @@ const Home = () => {
                         title="ClipBoard Application"
                         TechnologyUsed="Technology Used :"
                         TechnologyName="HTML, Tailwind, JavaScript, React"
-                        img="/images/project-one.png"
-                        GitHubRepositoryLink="GitHub Repository Link:"
-                        GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
-                    />
-
-
-                    <ProjectCard
-                        Projectname="Project Name :"
-                        title="ClipBoard Application"
-                        TechnologyUsed="Technology Used :"
-                        TechnologyName="HTML, Tailwind, JavaScript, React"
-                        img="/images/project-one.png"
-                        GitHubRepositoryLink="GitHub Repository Link:"
-                        GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
-                    />
-
-                    <ProjectCard
-                        Projectname="Project Name :"
-                        title="ClipBoard Application"
-                        TechnologyUsed="Technology Used :"
-                        TechnologyName="HTML, Tailwind, JavaScript, React"
-                        img="/images/project-one.png"
+                        img="/public/images/project-one.png"
                         GitHubRepositoryLink="GitHub Repository Link:"
                         GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
                     />
@@ -149,7 +128,17 @@ const Home = () => {
                         title="ClipBoard Application"
                         TechnologyUsed="Technology Used :"
                         TechnologyName="HTML, Tailwind, JavaScript, React"
-                        img="/images/project-one.png"
+                        img="/public/images/project-one.png"
+                        GitHubRepositoryLink="GitHub Repository Link:"
+                        GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
+                    />
+
+                    <ProjectCard
+                        Projectname="Project Name :"
+                        title="ClipBoard Application"
+                        TechnologyUsed="Technology Used :"
+                        TechnologyName="HTML, Tailwind, JavaScript, React"
+                        img="/public/images/project-one.png"
                         GitHubRepositoryLink="GitHub Repository Link:"
                         GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
                     />
@@ -160,7 +149,18 @@ const Home = () => {
                         title="ClipBoard Application"
                         TechnologyUsed="Technology Used :"
                         TechnologyName="HTML, Tailwind, JavaScript, React"
-                        img="/images/project-one.png"
+                        img="/public/images/project-one.png"
+                        GitHubRepositoryLink="GitHub Repository Link:"
+                        GithubAc="https://github.com/vikashkumar-20/PasteApp"  // Pass GitHub profile link here
+                    />
+
+
+                    <ProjectCard
+                        Projectname="Project Name :"
+                        title="ClipBoard Application"
+                        TechnologyUsed="Technology Used :"
+                        TechnologyName="HTML, Tailwind, JavaScript, React"
+                        img="/public/images/project-one.png"
                         GitHubRepositoryLink="GitHub Repository Link:"
                         GithubAc="https://github.com/vikashkumar-20/PasteApp"
                     />
@@ -177,15 +177,15 @@ const Home = () => {
 
                 <div className="footer-favicon">
                     <a href="https://www.facebook.com/vikash.gupta.16100921" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                        <img src="/images/facebook-icon.svg" alt="Facebook" />
+                        <img src="/public/images/facebook.png" alt="Facebook" />
                     </a>
 
                     <a href="https://www.linkedin.com/in/vikashkumar20/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <img src="/images/linkedin-icon.svg" alt="LinkedIn" />
+                        <img src="/public/images/linkedin.png" alt="LinkedIn" />
                     </a>
 
                     <a href="https://www.instagram.com/_vikash.gupta/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                        <img src="/images/instagram-icon.avif" alt="Instagram" />
+                        <img src="/public/images/instagram.png" alt="Instagram" />
                     </a>
                 </div>
 
